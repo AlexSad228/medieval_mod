@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IVI",
+    "#C#",
+    "X#X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "I": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "X": {
+      "item": "minecraft:water_bucket"
+    },
+    "V": {
+      "item": "minecraft:lapis_block"
+    },
+    "C": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "medieval_mod:water_charm"
+  }
+}

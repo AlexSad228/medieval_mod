@@ -1,0 +1,23 @@
+{
+  "item.medieval_mod.katana_blade": "Клинок катаны",
+  "item.medieval_mod.katana": "Катана",
+  "item.medieval_mod.rapier_blade": "Клинок рапиры",
+  "item.medieval_mod.rapier": "Рапира",
+  "item.medieval_mod.battleaxe": "Секира",
+  "item.medieval_mod.dagger": "Кинжал",
+  "item.medieval_mod.mace_head": "Навершие булавы",
+  "item.medieval_mod.mace": "Булава",
+  "item.medieval_mod.giant_sword_bottom_part": "Нижняя часть гигантского меча",
+  "item.medieval_mod.giant_sword_middle_part": "Средняя часть гигантского меча",
+  "item.medieval_mod.giant_sword_upper_part": "Верхняя часть гигантского меча",
+  "item.medieval_mod.giant_sword_blade": "Клинок огромного меча",
+  "item.medieval_mod.giant_sword": "Огромный меч",
+  "item.medieval_mod.fire_charm": "Амулет огня",
+  "item.medieval_mod.water_charm": "Амулет воды",
+  "item.medieval_mod.fire_charm.tooltip": "Выпускает огненные шары.",
+  "item.medieval_mod.water_charm.tooltip": "Вызывает дождь за определённую плату.",
+  "item.medieval_mod.water_charm.raining": "Дождь уже идёт",
+  "item.medieval_mod.water_charm.low_level": "У Вас не хватает опыта.",
+
+  "itemGroup.medieval_mod_tab": "Medieval Mod"
+}

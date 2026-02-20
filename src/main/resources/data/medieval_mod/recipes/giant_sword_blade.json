@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X",
+    " I ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "medieval_mod:giant_sword_bottom_part"
+    },
+    "I": {
+      "item": "medieval_mod:giant_sword_middle_part"
+    },
+    "X": {
+      "item": "medieval_mod:giant_sword_upper_part"
+    }
+  },
+  "result": {
+    "item": "medieval_mod:giant_sword_blade"
+  }
+}

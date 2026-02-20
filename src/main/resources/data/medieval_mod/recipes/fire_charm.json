@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XBX",
+    "VIV",
+    "#C#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lava_bucket"
+    },
+    "I": {
+      "item": "minecraft:blaze_powder"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    },
+    "V": {
+      "item": "minecraft:gold_block"
+    },
+    "C": {
+      "item": "minecraft:fire_charge"
+    },
+    "B": {
+      "item": "minecraft:magma_block"
+    }
+  },
+  "result": {
+    "item": "medieval_mod:fire_charm"
+  }
+}

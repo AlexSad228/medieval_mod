@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " I ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "medieval_mod:katana_blade"
+    }
+  },
+  "result": {
+    "item": "medieval_mod:katana"
+  }
+}

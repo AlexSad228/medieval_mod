@@ -1,0 +1,23 @@
+{
+  "item.medieval_mod.katana_blade": "Katana Blade",
+  "item.medieval_mod.katana": "Katana",
+  "item.medieval_mod.rapier_blade": "Rapier Blade",
+  "item.medieval_mod.rapier": "Rapier",
+  "item.medieval_mod.battleaxe": "Battleaxe",
+  "item.medieval_mod.dagger": "Dagger",
+  "item.medieval_mod.mace_head": "Mace Head",
+  "item.medieval_mod.mace": "Mace",
+  "item.medieval_mod.giant_sword_bottom_part": "Giant Sword Bottom Part",
+  "item.medieval_mod.giant_sword_middle_part": "Giant Sword Middle Part",
+  "item.medieval_mod.giant_sword_upper_part": "Giant Sword Upper Part",
+  "item.medieval_mod.giant_sword_blade": "Giant Sword Blade",
+  "item.medieval_mod.giant_sword": "Giant Sword",
+  "item.medieval_mod.fire_charm": "Fire Charm",
+  "item.medieval_mod.water_charm": "Water Charm",
+  "item.medieval_mod.fire_charm.tooltip": "Shoots fireballs.",
+  "item.medieval_mod.water_charm.tooltip": "Causes rain for a certain fee.",
+  "item.medieval_mod.water_charm.raining": "It is already raining.",
+  "item.medieval_mod.water_charm.low_level": "Too low XP level.",
+
+  "itemGroup.medieval_mod_tab": "Medieval Mod"
+}
