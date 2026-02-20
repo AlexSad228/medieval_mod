@@ -52,11 +52,11 @@ public class WaterCharmItem extends Item {
                     if (player instanceof Player _player)
                         _player.giveExperienceLevels(-(5));
                 } else {
-                    if (player instanceof Player _player && !_player.level.isClientSide())
+                    if (player instanceof Player _player && !_player.level().isClientSide())
                         _player.displayClientMessage(Component.literal((Component.translatable("item.medieval_mod.water_charm.raining").getString())), true);
                 }
             } else {
-                if (player instanceof Player _player && !_player.level.isClientSide())
+                if (player instanceof Player _player && !_player.level().isClientSide())
                     _player.displayClientMessage(Component.literal((Component.translatable("item.medieval_mod.water_charm.low_level").getString())), true);
             }
         }

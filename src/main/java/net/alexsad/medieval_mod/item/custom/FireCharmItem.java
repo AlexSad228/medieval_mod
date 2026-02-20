@@ -43,9 +43,9 @@ public class FireCharmItem extends Item {
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
         InteractionResultHolder<ItemStack> ar = super.use(level, player, hand);
         ItemStack itemstack = ar.getObject();
-        double x = player.getX();
-        double y = player.getY();
-        double z = player.getZ();
+        int x = (int) player.getX();
+        int y = (int) player.getY();
+        int z = (int) player.getZ();
 
         FireCharmProcedure.execute(level, x, y, z, player);
         return ar;
@@ -53,7 +53,7 @@ public class FireCharmItem extends Item {
 
     @Mod.EventBusSubscriber
     public class FireCharmProcedure {
-        public static void execute(LevelAccessor level, double x, double y, double z, Entity player) {
+        public static void execute(LevelAccessor level, int x, int y, int z, Entity player) {
             if (player == null)
                 return;
             if (MedievalMod.WorldVariables.get(level).time <= level.dayTime()) {
@@ -63,7 +63,7 @@ public class FireCharmItem extends Item {
             }
 
             Entity _shootFrom = player;
-            Level projectileLevel = _shootFrom.level;
+            Level projectileLevel = _shootFrom.level();
             if (!projectileLevel.isClientSide()) {
                 Projectile _entityToSpawn = new Object() {
                     public Projectile getFireball(Level level, Entity shooter) {

@@ -1,6 +1,7 @@
 package net.alexsad.medieval_mod;
 
 import com.mojang.logging.LogUtils;
+import net.alexsad.medieval_mod.item.ModCreativeModeTab;
 import net.alexsad.medieval_mod.item.ModItems;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.FriendlyByteBuf;
@@ -38,6 +39,8 @@ public class MedievalMod
         IEventBus modEventBus = context.getModEventBus();
 
         ModItems.register(modEventBus);
+
+        ModCreativeModeTab.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -124,15 +127,6 @@ public class MedievalMod
         public SavedDataSyncMessage(int type, SavedData data) {
             this.type = type;
             this.data = data;
-        }
-    }
-
-    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
-    {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
         }
     }
 }
